@@ -14,13 +14,12 @@
 		A01BF83B25475F1A002EF7AE /* ExtensionUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01BF83A25475F1A002EF7AE /* ExtensionUserDefaults.swift */; };
 		A052C15625ACD9D000F3FE04 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052C15525ACD9D000F3FE04 /* UserDefaultsKeys.swift */; };
 		A052C15A25B4A71100F3FE04 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052C15925B4A71100F3FE04 /* Manager.swift */; };
+		A052C15C25B4C14400F3FE04 /* ExtensionUIView .swift in Sources */ = {isa = PBXBuildFile; fileRef = A052C15B25B4C14400F3FE04 /* ExtensionUIView .swift */; };
 		A0F579D82545D6D3000B23F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F579D72545D6D3000B23F9 /* AppDelegate.swift */; };
 		A0F579DC2545D6D3000B23F9 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F579DB2545D6D3000B23F9 /* EditorViewController.swift */; };
 		A0F579DF2545D6D3000B23F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F579DD2545D6D3000B23F9 /* Main.storyboard */; };
 		A0F579E12545D6D5000B23F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F579E02545D6D5000B23F9 /* Assets.xcassets */; };
 		A0F579E42545D6D5000B23F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F579E22545D6D5000B23F9 /* LaunchScreen.storyboard */; };
-		A0F579EC2545D926000B23F9 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F579EB2545D926000B23F9 /* CustomView.xib */; };
-		A0F579EE2545F6C4000B23F9 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F579ED2545F6C4000B23F9 /* CustomView.swift */; };
 		A0F579F025461D3E000B23F9 /* ExtensionUIViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F579EF25461D3E000B23F9 /* ExtensionUIViewController .swift */; };
 		A0FBC78F25618D2800289CB7 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBC78E25618D2800289CB7 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +33,7 @@
 		A01BF83A25475F1A002EF7AE /* ExtensionUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUserDefaults.swift; sourceTree = "<group>"; };
 		A052C15525ACD9D000F3FE04 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		A052C15925B4A71100F3FE04 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		A052C15B25B4C14400F3FE04 /* ExtensionUIView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtensionUIView .swift"; sourceTree = "<group>"; };
 		A0F579D42545D6D3000B23F9 /* StorageImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorageImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F579D72545D6D3000B23F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0F579DB2545D6D3000B23F9 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
@@ -41,8 +41,6 @@
 		A0F579E02545D6D5000B23F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0F579E32545D6D5000B23F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0F579E52545D6D5000B23F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0F579EB2545D926000B23F9 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
-		A0F579ED2545F6C4000B23F9 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		A0F579EF25461D3E000B23F9 /* ExtensionUIViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtensionUIViewController .swift"; sourceTree = "<group>"; };
 		A0FBC78E25618D2800289CB7 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		E07059360BB438660A48D73F /* Pods_StorageImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StorageImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +75,50 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A052C15E25B4C1A900F3FE04 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A0F579EF25461D3E000B23F9 /* ExtensionUIViewController .swift */,
+				A052C15B25B4C14400F3FE04 /* ExtensionUIView .swift */,
+				A01BF83A25475F1A002EF7AE /* ExtensionUserDefaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A052C15F25B4C1B700F3FE04 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A052C15925B4A71100F3FE04 /* Manager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A052C16025B4C1C800F3FE04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A01BF83825475A88002EF7AE /* Picture.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A052C16125B4C1EF00F3FE04 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A01BF83425472BCB002EF7AE /* StartViewController.swift */,
+				A0F579DB2545D6D3000B23F9 /* EditorViewController.swift */,
+				A01BF83625472CEE002EF7AE /* ViewerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A052C16225B4C26400F3FE04 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A052C15525ACD9D000F3FE04 /* UserDefaultsKeys.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		A0F579CB2545D6D3000B23F9 = {
 			isa = PBXGroup;
 			children = (
@@ -100,19 +142,14 @@
 			children = (
 				A0FBC78D25618D0F00289CB7 /* Cells */,
 				A0F579D72545D6D3000B23F9 /* AppDelegate.swift */,
-				A01BF83425472BCB002EF7AE /* StartViewController.swift */,
-				A0F579DB2545D6D3000B23F9 /* EditorViewController.swift */,
-				A01BF83625472CEE002EF7AE /* ViewerViewController.swift */,
-				A052C15925B4A71100F3FE04 /* Manager.swift */,
-				A0F579EB2545D926000B23F9 /* CustomView.xib */,
-				A01BF83825475A88002EF7AE /* Picture.swift */,
-				A052C15525ACD9D000F3FE04 /* UserDefaultsKeys.swift */,
+				A052C16125B4C1EF00F3FE04 /* ViewControllers */,
+				A052C15F25B4C1B700F3FE04 /* Managers */,
+				A052C16025B4C1C800F3FE04 /* Models */,
+				A052C16225B4C26400F3FE04 /* Constants */,
 				A0F579DD2545D6D3000B23F9 /* Main.storyboard */,
-				A0F579EF25461D3E000B23F9 /* ExtensionUIViewController .swift */,
+				A052C15E25B4C1A900F3FE04 /* Extensions */,
 				A0F579E02545D6D5000B23F9 /* Assets.xcassets */,
-				A0F579ED2545F6C4000B23F9 /* CustomView.swift */,
 				A0F579E22545D6D5000B23F9 /* LaunchScreen.storyboard */,
-				A01BF83A25475F1A002EF7AE /* ExtensionUserDefaults.swift */,
 				A0F579E52545D6D5000B23F9 /* Info.plist */,
 			);
 			path = StorageImages;
@@ -187,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0F579E42545D6D5000B23F9 /* LaunchScreen.storyboard in Resources */,
-				A0F579EC2545D926000B23F9 /* CustomView.xib in Resources */,
 				A0F579E12545D6D5000B23F9 /* Assets.xcassets in Resources */,
 				A0F579DF2545D6D3000B23F9 /* Main.storyboard in Resources */,
 			);
@@ -242,12 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A052C15C25B4C14400F3FE04 /* ExtensionUIView .swift in Sources */,
 				A01BF83725472CEE002EF7AE /* ViewerViewController.swift in Sources */,
 				A0FBC78F25618D2800289CB7 /* CustomCollectionViewCell.swift in Sources */,
 				A052C15625ACD9D000F3FE04 /* UserDefaultsKeys.swift in Sources */,
 				A01BF83525472BCB002EF7AE /* StartViewController.swift in Sources */,
 				A01BF83B25475F1A002EF7AE /* ExtensionUserDefaults.swift in Sources */,
-				A0F579EE2545F6C4000B23F9 /* CustomView.swift in Sources */,
 				A0F579DC2545D6D3000B23F9 /* EditorViewController.swift in Sources */,
 				A01BF83925475A88002EF7AE /* Picture.swift in Sources */,
 				A052C15A25B4A71100F3FE04 /* Manager.swift in Sources */,

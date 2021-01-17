@@ -13,9 +13,6 @@ class StartViewController: UIViewController {
     // MARK: - IBActions
     @IBAction func singInButtonPressed(_ sender: UIButton) {
         
-//        try? self.keychain.removeAll()
-//        return
-        
         if self.checkPassword() {
             self.singIn()
         } else {

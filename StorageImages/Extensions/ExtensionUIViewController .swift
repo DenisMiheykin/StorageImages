@@ -2,16 +2,6 @@ import UIKit
 
 extension UIViewController {
     
-    func openXib(title: String, subTitle: String, button: String, state: UIControl.State) {
-        let customView = CustomView.instanceFromNib()
-        customView.frame = self.view.bounds
-        customView.title.text = title
-        customView.subTitle.text = subTitle
-        customView.button.setTitle(button, for: state)
-        
-        self.view.addSubview(customView)
-    }
-    
     func saveImage(image: UIImage) -> String? {
         guard let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { return nil}
         
