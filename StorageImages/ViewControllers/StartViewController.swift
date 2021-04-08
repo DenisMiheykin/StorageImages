@@ -12,7 +12,6 @@ class StartViewController: UIViewController {
     
     // MARK: - IBActions
     @IBAction func singInButtonPressed(_ sender: UIButton) {
-        
         if self.checkPassword() {
             self.singIn()
         } else {
